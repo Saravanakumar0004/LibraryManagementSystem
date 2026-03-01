@@ -27,16 +27,17 @@ builder.Services.AddScoped<IBookService, BookService>();
 builder.Services.AddScoped<IIssuanceService, IssuanceService>();
 
 //
-// ✅ CORS — Allow React frontend
+// ✅ CORS — Allow React frontend & Render domain
 //
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
         policy.WithOrigins(
-                "http://localhost:5173",  // Vite dev server
-                "http://localhost:3000",  // CRA fallback
-                "http://localhost:4173"   // Vite preview
+                "http://localhost:5173",
+                "http://localhost:3000",
+                "http://localhost:4173",
+                "https://librarymanagementsystem-x8qy.onrender.com"
               )
               .AllowAnyHeader()
               .AllowAnyMethod();
@@ -62,13 +63,18 @@ using (var scope = app.Services.CreateScope())
 }
 
 //
-// 🔹 Enable Swagger Always
+// 🔹 Enable Swagger
 //
 app.UseSwagger();
 app.UseSwaggerUI();
 
 //
-// ✅ CORS — Must be before MapControllers
+// ❗ IMPORTANT for Render (avoid HTTPS redirect loop)
+//
+app.UseHttpsRedirection();
+
+//
+// ✅ CORS
 //
 app.UseCors("AllowReactApp");
 
