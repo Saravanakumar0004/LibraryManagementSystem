@@ -20,3 +20,4 @@ C:\Users\ADMIN\Desktop\LibraryManagementSystem\backend\LibraryManagementSystem.D
 C:\Users\ADMIN\Desktop\LibraryManagementSystem\backend\LibraryManagementSystem.Domain\obj\Debug\net10.0\refint\LibraryManagementSystem.Domain.dll
 C:\Users\ADMIN\Desktop\LibraryManagementSystem\backend\LibraryManagementSystem.Domain\obj\Debug\net10.0\LibraryManagementSystem.Domain.pdb
 C:\Users\ADMIN\Desktop\LibraryManagementSystem\backend\LibraryManagementSystem.Domain\obj\Debug\net10.0\ref\LibraryManagementSystem.Domain.dll
+C:\Users\ADMIN\Desktop\LibraryManagementSystem\backend\LibraryManagementSystem.Domain\obj\Debug\net10.0\LibraryManagementSystem.Domain.sourcelink.json

@@ -320,3 +320,4 @@ C:\Users\ADMIN\Desktop\LibraryManagementSystem\backend\LibraryManagementSystem.A
 C:\Users\ADMIN\Desktop\LibraryManagementSystem\backend\LibraryManagementSystem.API\obj\Debug\net10.0\LibraryManagementSystem.API.pdb
 C:\Users\ADMIN\Desktop\LibraryManagementSystem\backend\LibraryManagementSystem.API\obj\Debug\net10.0\LibraryManagementSystem.API.genruntimeconfig.cache
 C:\Users\ADMIN\Desktop\LibraryManagementSystem\backend\LibraryManagementSystem.API\obj\Debug\net10.0\ref\LibraryManagementSystem.API.dll
+C:\Users\ADMIN\Desktop\LibraryManagementSystem\backend\LibraryManagementSystem.API\obj\Debug\net10.0\LibraryManagementSystem.API.sourcelink.json
